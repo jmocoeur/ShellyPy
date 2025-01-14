@@ -107,7 +107,7 @@ class ShellyGen2(_ShellyBase):
     def roller(self, index: int, go: Optional[str] = None,
                roller_pos: Optional[int] = None, duration: Optional[int] = None) -> dict[str, Any]:
 
-        method: str = ""
+        method: str = "Cover.GetStatus"
         values: dict[str, Any] = {
             "id": index
         }
